@@ -1,0 +1,15 @@
+@media only screen and (max-width: 600px) {
+    .box {
+        display: flex;
+        flex-direction: column;
+    }
+    .text {
+        width: 100%;
+        order: 2;
+        text-align: center;
+    }
+    .img {
+        order: 1;
+        width: 100%;
+    }
+}
